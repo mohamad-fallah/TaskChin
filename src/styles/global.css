@@ -1,0 +1,32 @@
+@import url("./reset.css");
+
+@font-face {
+  font-family: "YekanBakh";
+  src: url("../../public/fonts/woff2/YekanBakhFaNum-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "YekanBakh";
+  src: url("../../public/fonts/woff2/YekanBakhFaNum-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "YekanBakh";
+  src: url("../../public/fonts/woff2/YekanBakhFaNum-ExtraBlack.woff2")
+    format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+* {
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+}
