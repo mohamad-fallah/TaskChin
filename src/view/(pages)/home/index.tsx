@@ -6,9 +6,7 @@ interface HomePageViewProps {}
 const HomePageView: FunctionComponent<HomePageViewProps> = () => {
   return (
     <>
-      <div>
-        <Typography sx={{ color: "red" }}>سلام به دنیای جدید</Typography>
-      </div>
+      <Box></Box>
     </>
   );
 };
