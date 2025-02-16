@@ -3,10 +3,11 @@ import theme from "@/styles/theme";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 import { ThemeProvider } from "@mui/material/styles";
 import "@/styles/global.css";
+import MainHeader from "@/templates/headers/MainHeader";
 
 export const metadata: Metadata = {
-  title: "test",
-  description: "test",
+  title: "taskchin",
+  description: "persian task manager",
 };
 
 export default function RootLayout({
@@ -18,7 +19,10 @@ export default function RootLayout({
     <html dir="rtl" lang="fa">
       <body>
         <AppRouterCacheProvider>
-          <ThemeProvider theme={theme}>{children}</ThemeProvider>
+          <ThemeProvider theme={theme}>
+            <MainHeader />
+            {children}
+          </ThemeProvider>
         </AppRouterCacheProvider>
       </body>
     </html>

@@ -16,6 +16,7 @@
     "@mui/icons-material": "^6.4.0",
     "@mui/material": "^6.4.0",
     "@mui/material-nextjs": "^6.3.1",
+    "@reactuses/core": "^6.0.1",
     "next": "15.1.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
@@ -25,6 +26,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@typescript-eslint/eslint-plugin": "^8.24.0",
     "eslint": "^9.18.0",
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-unused-imports": "^4.1.4",
